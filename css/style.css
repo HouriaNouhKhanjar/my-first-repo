@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(18, 3, 32);
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #4a4a4f;
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #4a4a4f;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.card a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.card img {
+    /* width: 180px; */
+    height: 180px;
+}
